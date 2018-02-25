@@ -179,7 +179,7 @@ int main(int argc, char **argv)
 		if(fwrite(&Parallel_result[i],sizeof(long int),1,fp) != 1)
 			printf("file write error\n");
 
-	printf("hello this is pretty good and have a good test")
+	printf("hello this is pretty good and have a good test");
 
 	fclose(fp);
 
